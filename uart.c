@@ -1,5 +1,4 @@
 
-
 #include "uart.h"
 
 #define BAUD_PRESCALE (((F_CPU / (USART_BAUDRATE * 8UL))) - 1)
